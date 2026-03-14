@@ -31,36 +31,20 @@
       "dest": "/profile.html"
     },
     {
-      "src": "/(.*)\\.css",
-      "dest": "/$1.css"
+      "src": "/index.css",
+      "dest": "/index.css"
     },
     {
-      "src": "/(.*)\\.js",
-      "dest": "/$1.js"
+      "src": "/register.js",
+      "dest": "/register.js"
+    },
+    {
+      "src": "/profile.js",
+      "dest": "/profile.js"
     },
     {
       "src": "/image/(.*)",
       "dest": "/image/$1"
-    }
-  ],
-  "headers": [
-    {
-      "source": "**/*.css",
-      "headers": [
-        {
-          "key": "Content-Type",
-          "value": "text/css"
-        }
-      ]
-    },
-    {
-      "source": "**/*.js",
-      "headers": [
-        {
-          "key": "Content-Type",
-          "value": "application/javascript"
-        }
-      ]
     }
   ]
 }
