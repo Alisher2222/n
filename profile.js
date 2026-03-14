@@ -20,7 +20,8 @@ window.addEventListener("load", function () {
   document.getElementById("profileId").textContent =
     "ID: " + userData.studentId;
   document.getElementById("profilePhoto").src = userData.photo;
-  document.getElementById("profileButton").textContent = userData.name + " ⌄";
+  document.getElementById("profileButton").textContent =
+    userData.name + " " + userData.surname + " ⌄";
 });
 
 // Optional: Clear data when leaving

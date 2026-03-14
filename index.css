@@ -109,7 +109,6 @@ body {
   background-color: white;
   border: 1px solid var(--main-color);
   border-radius: 4px;
-  color: var(--main-color);
   cursor: pointer;
   font-weight: 500;
   display: flex;
