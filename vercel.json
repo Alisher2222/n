@@ -19,6 +19,18 @@
   ],
   "routes": [
     {
+      "src": "/",
+      "dest": "/register.html"
+    },
+    {
+      "src": "/register",
+      "dest": "/register.html"
+    },
+    {
+      "src": "/profile",
+      "dest": "/profile.html"
+    },
+    {
       "src": "/(.*)",
       "dest": "/$1"
     }
