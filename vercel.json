@@ -23,16 +23,12 @@
       "dest": "/register.html"
     },
     {
-      "src": "/register",
-      "dest": "/register.html"
-    },
-    {
-      "src": "/profile",
+      "src": "/profile.html",
       "dest": "/profile.html"
     },
     {
       "src": "/(.*)",
-      "dest": "/$1"
+      "dest": "/register.html"
     }
   ]
 }
