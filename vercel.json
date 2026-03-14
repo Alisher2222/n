@@ -23,12 +23,44 @@
       "dest": "/register.html"
     },
     {
+      "src": "/register.html",
+      "dest": "/register.html"
+    },
+    {
       "src": "/profile.html",
       "dest": "/profile.html"
     },
     {
-      "src": "/(.*)",
-      "dest": "/register.html"
+      "src": "/(.*)\\.css",
+      "dest": "/$1.css"
+    },
+    {
+      "src": "/(.*)\\.js",
+      "dest": "/$1.js"
+    },
+    {
+      "src": "/image/(.*)",
+      "dest": "/image/$1"
+    }
+  ],
+  "headers": [
+    {
+      "source": "**/*.css",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/css"
+        }
+      ]
+    },
+    {
+      "source": "**/*.js",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/javascript"
+        }
+      ]
     }
   ]
 }
