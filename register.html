@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register - Student Union</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Your header (same as before) -->
+      <header>
+        <!-- ... your header code ... -->
+      </header>
+
+      <main>
+        <h1>Student Registration</h1>
+
+        <form id="registerForm" class="register-form">
+          <!-- Name -->
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+
+          <!-- Surname -->
+          <div class="form-group">
+            <label for="surname">Surname:</label>
+            <input type="text" id="surname" name="surname" required />
+          </div>
+
+          <!-- ID -->
+          <div class="form-group">
+            <label for="studentId">Student ID:</label>
+            <input type="text" id="studentId" name="studentId" required />
+          </div>
+
+          <!-- Photo Upload -->
+          <div class="form-group">
+            <label for="photo">Photo:</label>
+            <input
+              type="file"
+              id="photo"
+              name="photo"
+              accept="image/*"
+              required
+            />
+            <div class="photo-preview" id="photoPreview"></div>
+          </div>
+
+          <button type="submit" class="btn-submit">Register</button>
+        </form>
+      </main>
+
+      <!-- Your footer -->
+      <footer>
+        <!-- ... your footer code ... -->
+      </footer>
+    </div>
+
+    <script src="register.js"></script>
+  </body>
+</html>
