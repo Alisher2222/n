@@ -125,7 +125,7 @@ body {
 .oyu {
   width: 100%;
   height: 23px;
-  background-image: url("./image/oyu.png");
+  background-image: url("image/oyu.png");
   background-repeat: repeat-x;
   background-size: auto 23px;
 }
